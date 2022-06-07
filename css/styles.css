@@ -3,31 +3,48 @@ body{
   margin:0;
   text-align: center;
   font-family: 'Arima Madurai', cursive;
+  background-color: #92B4EC;
 }
 
 h1{
   margin-top:0;
-  font-size: 90px;
+  font-size: 5.625rem;
   font-family: 'Gloria Hallelujah', cursive;
   margin-bottom:0;
+
 }
 
 h2{
   font-family: 'Roboto', sans-serif;
+  font-size:2.5em;
 }
 
 h3{
   font-family: 'Roboto', sans-serif;
+  font-size:1.3em;
+}
+
+hr{
+  border-top:15px;
+  width:5%;
+  margin: 30px auto;
+  color:grey;
+  border-style:dotted none none none;
 }
 
 /***************ClASS SELECTORS*******************/
-.topContainer{
-  background-color: #92B4EC;
 
+.top-container{
+  padding-top:60px;
 }
 
-.top-subContainer1{
-  padding-top:20px;
+.middle-container{
+  background: rgb(146,180,236);
+  background: linear-gradient(360deg, rgba(146,180,236,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.profile{
+  padding-top:50px;
 }
 
 .top-cloud{
@@ -41,27 +58,25 @@ h3{
   padding-top:50px;
 }
 
-.middle-container{
-  background-color: #FFFFFF;
+.top-subContainer4{
+  height:320px;
+}
+
+.grass{
+  position:relative;
+  bottom:15px;
 }
 
 .profilePicture{
-  height:300px;
-  padding-top: 50px;
+  height:350px;
+  padding-top: 30px;
 }
 
-.online-learning{
+.icons{
   height:300px;
-}
-
-.laptop{
-  height:300px;
+  margin-top:30px;
 }
 
 .ref{
   font-size: 10px;
-}
-
-.bottom-container{
-  background-color: #FFE69A;
 }
